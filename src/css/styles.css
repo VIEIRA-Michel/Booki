@@ -13,13 +13,14 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .logo-header {
     width: 95px;
     height: 48px;
     margin: 0 0 20px 15px;
+    padding-top: 25px;
 }
 .menu {
     display: flex;
@@ -30,7 +31,7 @@ header {
 .nav-hebergements {
     width: 50%;
     text-align: center;
-    padding: 40px;
+    padding-top: 40px;
 
 }
 .nav-hebergements:hover {
@@ -41,7 +42,7 @@ header {
 .nav-activites {
     width: 50%;
     text-align: center;
-    padding: 40px;
+    padding-top: 40px;
 
 
 }
@@ -50,14 +51,115 @@ header {
     color: #0065FC;
 }
 
+.search-position {
+    background-color: #F2F2F2;
+    width: 50px;
+    height: 50px;
+    border: solid 1px #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.fa-location-dot {
+    font-size: 15px;
+}
+.search-field {
+    border: solid 1px #F2F2F2;
+    font-weight: 600;
+    height: 46px;
+    width: 180px;
+    font-size: 15px;
+    padding-left: 15px;
+    
+}
+.search-submit {
+    background-color: #0065FC;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    height: 50px;
+    width: 115px;
+}
+
+.form-search {
+    display: flex;
+    margin-top: 25px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.trouver-emplacement > h3 {
+    margin: 10px 0px 15px 0px;
+    font-weight: 300;
+}
+
+.filtrer-emplacement {
+    margin: 25px 0px 25px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 600;
+    align-items: center;
+}
+
+.tout-les-filtres {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 0 15px 0 0;
+    border: 2px solid #e2e2e2;
+    border-radius: 25px;
+    transition: background-color 0.75s, color 0.75s;
+    
+}
+.filter-button:hover {
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+.name-button {
+    white-space: pre;
+}
+
+.fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog {
+    box-sizing: border-box;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    padding: 15px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
 @media screen and (max-width: 768px) {
     body {
         margin: 0;
     }
 
+    main {
+        width: 90%;
+        margin: auto;
+    }
+
     header {
         display: flex;
         flex-direction: column;
+    }
+
+    #logo {
+        margin: auto;
     }
 
     a:hover {
@@ -91,8 +193,22 @@ header {
         border-bottom: 3px solid #0065FC;
         border-top: none;
     }
+
+    h3 {
+        display: inline-block;
+    }
+
+    /*
+    .filter-button:nth-child(3) {
+        margin-left: 0px;
+    }
+    */
 }
 
-@media screen and (max-width: 992px) {
-    
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    /*
+    .filter-button:first-child, .filter-button:nth-child(4){
+        margin-left: 0px;
+    }
+    */
 }
