@@ -1,7 +1,13 @@
 
 body {
-    margin: 0 30px;
+    margin: auto;
+    max-width: 1440px;
     font-family: 'Raleway', sans-serif;
+}
+
+main {
+    width: 90%;
+    margin: auto;
 }
 
 a {
@@ -16,6 +22,10 @@ header {
     align-items: flex-start;
 }
 
+#logo {
+    margin-left: 60px;
+}
+
 .logo-header {
     width: 95px;
     height: 48px;
@@ -26,6 +36,7 @@ header {
     display: flex;
     justify-content: space-around;
     width: 300px;
+    margin-right: 40px;
 }
 
 .nav-hebergements {
@@ -78,8 +89,11 @@ header {
     font-weight: 500;
     border: none;
     border-radius: 0px 15px 15px 0px;
-    height: 50px;
-    width: 115px;
+    padding: 0px 15px 0 15px;
+}
+
+.button-search-mobile {
+    display: none;
 }
 
 .form-search {
@@ -143,6 +157,146 @@ h1 {
     margin-right: 15px;
 }
 
+.informations {
+    display: flex;
+    align-content: center;
+}
+
+.informations p {
+    padding-top: 6px;
+}
+
+
+.fa-info {
+    color: #0065FC;
+    border: 1px solid #e2e2e2;
+    padding: 4px 8px 4px 8px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+/*
+A TESTER
+*/
+.hebergement {
+    display: flex;
+    margin-top: 20px;
+    width: 1380px;
+    justify-content: space-between;
+}
+
+.container {
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 35px;
+    max-width: 879px;
+    max-height: 528px;
+    margin-right: 30px;
+
+}
+
+.hebergement-marseille-titre {
+    font-weight: 600;
+    margin: 10px;
+}
+
+.tout-logement {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logement {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 3px;
+    width: 267px;
+    height: 190;
+    border-radius: 15px;
+    box-shadow: 0 0 8px darkgray;
+}
+
+.logement img {
+    width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+    display: block;
+    border-radius: 13px 13px 0 0;
+}
+
+.logement-titre {
+    font-weight: 600;
+    padding: 5px 10px 5px 10px;
+}
+
+.logement-prix {
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+}
+
+.logement-prix span {
+    font-weight: bold;
+}
+
+.logement-avis {
+    padding: 5px 10px 5px 10px;
+}
+
+.afficher-plus {
+    margin: 10px;
+    padding-top: 40px;
+    font-weight: 600;
+}
+.fa-solid.fa-star {
+    font-size: 12px;
+    color:#0065FC;
+}
+
+.fa-solid.fa-star.empty {
+    color: #e2e2e2;
+}
+.side-container {
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 35px;
+}
+
+.populaire-titre {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.logement-populaire {
+    display: flex;
+    flex-direction: column;
+}
+
+.populaire {
+    display: flex;
+    margin: 10px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px darkgray;
+    height: 130px;
+}
+
+.populaire img {
+    width: 110px;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px 0 0 10px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 @media screen and (max-width: 768px) {
     body {
         margin: 0;
@@ -159,6 +313,7 @@ h1 {
     }
 
     #logo {
+        margin-left: 0;
         margin: auto;
     }
 
@@ -198,6 +353,33 @@ h1 {
         display: inline-block;
     }
 
+    .search-field {
+        width: 200px;
+    }
+
+    .search-submit {
+        display: none;
+        border-radius: 15px;
+    }
+
+    .button-search {
+        display: none;
+    }
+
+    .button-search-mobile {
+        display: block;
+        position: absolute;
+        border: none;
+        background-color: #0065fc;
+        border-radius: 15px;
+        font-weight: 700;
+        color: white;
+        padding: 14px;
+        font-size: 18px;
+        left: 280px;
+        
+    }
+
     /*
     .filter-button:nth-child(3) {
         margin-left: 0px;
@@ -211,4 +393,9 @@ h1 {
         margin-left: 0px;
     }
     */
+
+    main {
+        width: 90%;
+        margin: auto;
+    }
 }

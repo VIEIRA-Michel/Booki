@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,23 +12,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/3a95e6041b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-            <div id="logo">
-                <!-- logo booki-->
-                <img src="/src/assets/images/logo/Booki.png" alt="logo" class="logo-header">
+        <div id="logo">
+            <!-- logo booki-->
+            <img src="/src/assets/images/logo/Booki.png" alt="logo" class="logo-header">
+        </div>
+        <nav class="menu">
+            <div class="nav-hebergements">
+                <a href="#Hébergements">Hébergements</a>
             </div>
-                <nav class="menu">
-                    <div class="nav-hebergements">
-                        <a href="#Hébergements">Hébergements</a>
-                    </div>
-                    <div class="nav-activites">
-                        <a href="#Activités">Activités</a>
-                    </div>
-                </nav>
+            <div class="nav-activites">
+                <a href="#Activités">Activités</a>
+            </div>
+        </nav>
     </header>
     <main>
         <div class="filter-banner">
@@ -35,8 +38,16 @@
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
                 <form name="recherche" action="get" class="form-search">
-
-                    <button type="button" class="search-position"><i class="fa-solid fa-location-dot"></i></button><input type="text" class="search-field" value="Marseille, France" size="15"><button type="submit" class="search-submit">Rechercher</button>
+                    <button type="button" class="search-position">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </button>
+                    <input type="text" class="search-field" value="Marseille, France" size="15">
+                    <button type="submit" class="search-submit">
+                        Rechercher
+                    </button>
+                    <button type="submit" class="button-search-mobile">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
                 </form>
             </div>
             <div class="filtrer-emplacement">
@@ -61,5 +72,242 @@
                 </div>
             </div>
         </div>
+        <div class="informations">
+            <i class="fas fa-info"></i>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+        <section class="hebergement">
+            <div class="container">
+                <div class="hebergement-marseille-titre">
+                    <h2>Hébergement à Marseille</h2>
+                </div>
+                <div class="tout-logement">
+                    <article class="logement">
+                        <div class="logement-photo">
+                            <img src="/src/assets/images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="">
+                            <!--photo de l'hebergement-->
+                        </div>
+                        <div class="logement-titre">
+                            <h3>Auberge La Cannebière</h3>
+                            <!--titre du logement-->
+                        </div>
+                        <div class="logement-prix">
+                            <p>Nuit à partir de <span>25€</span></p>
+                            <!--prix du logement-->
+                        </div>
+                        <div class="logement-avis">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star empty"></i>
+                            <!--avis du logement-->
+                        </div>
+                    </article>
+                    <article class="logement">
+                        <div class="logement-photo">
+                            <img src="/src/assets/images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                                alt="">
+                            <!--photo de l'hebergement-->
+                        </div>
+                        <div class="logement-titre">
+                            <h3>Hôtel du port</h3>
+                            <!--titre du logement-->
+                        </div>
+                        <div class="logement-prix">
+                            <p>Nuit à partir de <span>52€</span></p>
+                            <!--prix du logement-->
+                        </div>
+                        <div class="logement-avis">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <!--avis du logement-->
+                        </div>
+                    </article>
+                    <article class="logement">
+                        <div class="logement-photo">
+                            <img src="/src/assets/images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                alt="">
+                            <!--photo de l'hebergement-->
+                        </div>
+                        <div class="logement-titre">
+                            <h3>Hôtel Les mouettes</h3>
+                            <!--titre du logement-->
+                        </div>
+                        <div class="logement-prix">
+                            <p>Nuit à partir de <span>76€</span></p>
+                            <!--prix du logement-->
+                        </div>
+                        <div class="logement-avis">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star empty"></i>
+                            <!--avis du logement-->
+                        </div>
+                    </article>
+                    <article class="logement">
+                        <div class="logement-photo">
+                            <img src="/src/assets/images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                                alt="">
+                            <!--photo de l'hebergement-->
+                        </div>
+                        <div class="logement-titre">
+                            <h3>Hôtel de la mer</h3>
+                            <!--titre du logement-->
+                        </div>
+                        <div class="logement-prix">
+                            <p>Nuit à partir de <span>46€</span></p>
+                            <!--prix du logement-->
+                        </div>
+                        <div class="logement-avis">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star empty"></i>
+                            <i class="fa-solid fa-star empty"></i>
+                            <!--avis du logement-->
+                        </div>
+                    </article>
+                    <article class="logement">
+                        <div class="logement-photo">
+                            <img src="/src/assets/images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                                alt="">
+                            <!--photo de l'hebergement-->
+                        </div>
+                        <div class="logement-titre">
+                            <h3>Auberge Le Panier</h3>
+                            <!--titre du logement-->
+                        </div>
+                        <div class="logement-prix">
+                            <p>Nuit à partir de <span>23€</span></p>
+                            <!--prix du logement-->
+                        </div>
+                        <div class="logement-avis">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star empty"></i>
+                            <!--avis du logement-->
+                        </div>
+                    </article>
+                    <article class="logement">
+                        <div class="logement-photo">
+                            <img src="/src/assets/images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                                alt="">
+                            <!--photo de l'hebergement-->
+                        </div>
+                        <div class="logement-titre">
+                            <h3>Hôtel chez Amina</h3>
+                            <!--titre du logement-->
+                        </div>
+                        <div class="logement-prix">
+                            <p>Nuit à partir de <span>96€</span></p>
+                            <!--prix du logement-->
+                        </div>
+                        <div class="logement-avis">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <!--avis du logement-->
+                        </div>
+                    </article>
+                </div>
+                <div class="afficher-plus">
+                    <a href="#">Afficher plus</a>
+                </div>
+            </div>
+            <div class="side-container">
+                <div class="populaire-titre">
+                    <h2>Les plus populaires</h2>
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="logement-populaire">
+                    <article class="populaire">
+                        <div class="logement-photo">
+                            <img src="/src/assets/images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="">
+                            <!--photo de l'hebergement-->
+                        </div>
+                        <div class="detail">
+                            <div class="logement-titre">
+                                <h3>Hôtel Le soleil du matin</h3>
+                                <!--titre du logement-->
+                            </div>
+                            <div class="logement-prix">
+                                <p>Nuit à partir de <span>128€</span></p>
+                                <!--prix du logement-->
+                            </div>
+                            <div class="logement-avis">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <!--avis du logement-->
+                            </div>
+                        </div>
+                    </article>
+                    <article class="populaire">
+                        <div class="logement-photo">
+                            <img src="/src/assets/images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                                alt="">
+                            <!--photo de l'hebergement-->
+                        </div>
+                        <div class="detail">
+                            <div class="logement-titre">
+                                <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                                <!--titre du logement-->
+                            </div>
+                            <div class="logement-prix">
+                                <p>Nuit à partir de <span>71€</span></p>
+                                <!--prix du logement-->
+                            </div>
+                            <div class="logement-avis">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <!--avis du logement-->
+                            </div>
+                        </div>
+                    </article>
+                    <article class="populaire">
+                        <div class="logement-photo">
+                            <img src="/src/assets/images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                alt="">
+                            <!--photo de l'hebergement-->
+                        </div>
+                        <div class="detail">
+                            <div class="logement-titre">
+                                <h3>Hôtel Tout bleu et Blanc</h3>
+                                <!--titre du logement-->
+                            </div>
+                            <div class="logement-prix">
+                                <p>Nuit à partir de <span>68€</span></p>
+                                <!--prix du logement-->
+                            </div>
+                            <div class="logement-avis">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <!--avis du logement-->
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
