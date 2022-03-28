@@ -198,6 +198,11 @@ A TESTER
 .hebergement-marseille-titre {
     font-weight: 600;
     margin: 10px;
+    display: block;
+}
+
+.titre-marseille-mobile {
+    display: none;
 }
 
 .tout-logement {
@@ -244,10 +249,16 @@ A TESTER
 }
 
 .afficher-plus {
+    display: block;
     margin: 10px;
     padding-top: 40px;
     font-weight: 600;
 }
+
+.afficher-plus-mobile {
+    display: none;
+}
+
 .fa-solid.fa-star {
     font-size: 12px;
     color:#0065FC;
@@ -266,6 +277,7 @@ A TESTER
     display: flex;
     justify-content: space-between;
     margin: 10px;
+    font-weight: 600;
 }
 
 .logement-populaire {
@@ -288,7 +300,7 @@ A TESTER
     height: 100%;
     object-fit: cover;
     display: block;
-    border-radius: 10px 0 0 10px;
+    border-radius: 12px 0 0 12px;
 }
 
 .detail {
@@ -303,8 +315,8 @@ A TESTER
     }
 
     main {
-        width: 90%;
-        margin: auto;
+        width: auto;
+        margin: none;
     }
 
     header {
@@ -349,6 +361,10 @@ A TESTER
         border-top: none;
     }
 
+    .filter-banner {
+        margin: auto;
+        width: 90%;
+    }
     h3 {
         display: inline-block;
     }
@@ -380,6 +396,75 @@ A TESTER
         
     }
 
+    .informations {
+        margin: auto;
+        width: 90%;
+    }
+
+    .hebergement {
+        width: auto;
+        flex-direction: column-reverse;
+    }
+
+    .side-container {
+        border-radius: 0;
+    }
+
+    .populaire {
+        max-width: 350px;
+        margin-top: 20px;
+    }
+
+    .populaire-titre {
+        margin: 0;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        flex-direction: column;
+        padding: 0;
+        background-color: white;
+    }
+
+    .hebergement-marseille-titre {
+        display: none;
+    }
+
+    .tout-logement {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 35px;
+    }
+
+    .titre-marseille-mobile {
+        display: block;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+
+    .logement {
+        margin-top: 20px;
+        max-width: 350px;
+        margin-top: 20px;
+        width: auto;
+    }
+
+    .afficher-plus {
+        display: none;
+    }
+
+    .afficher-plus-mobile {
+        display: block;
+        margin-top: 20px;
+        font-weight: 600;
+    }
     /*
     .filter-button:nth-child(3) {
         margin-left: 0px;
