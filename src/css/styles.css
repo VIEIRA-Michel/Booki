@@ -221,6 +221,12 @@ A TESTER
     height: 0%;
     border-radius: 15px;
     box-shadow: 0 0 8px darkgray;
+    transition: 0.95s;
+}
+.logement:hover {
+    box-shadow: 0 0 8px darkblue;
+    background-image:
+    linear-gradient(to bottom, #0065FC, #DEEBFF);
 }
 
 .logement img {
@@ -295,6 +301,12 @@ A TESTER
     border-radius: 15px;
     box-shadow: 0 0 8px darkgray;
     height: 130px;
+    transition: 0.95s
+}
+.populaire:hover {
+    box-shadow: 0 0 8px darkblue;
+    background-image:
+    linear-gradient(to right, #0065FC, #DEEBFF);
 }
 
 .populaire img {
