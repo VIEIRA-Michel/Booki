@@ -187,11 +187,10 @@ A TESTER
 .container {
     background-color: #F2F2F2;
     border-radius: 15px;
-    padding: 35px;
     max-width: 879px;
     max-height: 528px;
     margin-right: 30px;
-    padding: 15px;
+    padding: 20px;
 
 }
 
@@ -199,6 +198,7 @@ A TESTER
     font-weight: 600;
     margin: 10px;
     display: block;
+    padding-left: 2%;
 }
 
 .titre-marseille-mobile {
@@ -259,7 +259,7 @@ A TESTER
 .afficher-plus {
     display: block;
     margin: 10px;
-    padding-top: 40px;
+    padding: 2% 0% 0% 2%;
     font-weight: 600;
 }
 
@@ -278,7 +278,7 @@ A TESTER
 .side-container {
     background-color: #F2F2F2;
     border-radius: 15px;
-    padding: 35px;
+    padding: 20px;
 }
 
 .populaire-titre {
@@ -321,6 +321,118 @@ A TESTER
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.marseille-activites {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+.activites {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activites h3 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.titre-activite {
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.activites-xl {
+    width: 23%;
+}
+
+.card-xl {
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card-xl img {
+    height: 94%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.name-card-xl {
+    padding: 5%;
+}
+.activites-l-s {
+    width: 23%;
+}
+
+.card-l {
+    height: 58%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card-l img {
+    height: 89%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.name-card-l {
+    padding: 5%;
+}
+
+.card-s {
+    border-radius: 10px;
+    background-color: white;
+    height: 38%;
+    margin-top: 10%;
+}
+
+.card-s img {
+    height: 84%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.name-card-s {
+    padding: 5%;
+}
+
+.activites-m-m {
+    width: 23%;
+}
+.card-m {
+    border-radius: 10px;
+    background-color: white;
+    height: 48%;
+}
+
+.card-m:nth-child(2) {
+    margin-top: 10%;
+}
+
+.card-m img {
+    height: 87%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.name-card-m {
+    padding: 5%;
+}
+
+.card-xl, .card-l, .card-m, .card-s {
+    box-shadow: 0 0 8px darkgray;
+}
+
+.card-xl h3, .card-l h3, .card-m h3, .card-s h3{
+
 }
 
 @media screen and (max-width: 768px) {
