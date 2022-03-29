@@ -431,8 +431,11 @@ A TESTER
     box-shadow: 0 0 8px darkgray;
 }
 
-.card-xl h3, .card-l h3, .card-m h3, .card-s h3{
 
+.card-xl:hover, .card-l:hover, .card-m:hover, .card-s:hover {
+    box-shadow: 0 0 8px darkblue;
+    background-image:
+    linear-gradient(to bottom, #0065FC, #DEEBFF);
 }
 
 @media screen and (max-width: 768px) {
