@@ -221,7 +221,7 @@ A TESTER
     height: 0%;
     border-radius: 15px;
     box-shadow: 0 0 8px darkgray;
-    transition: 0.95s;
+    transition: box-shadow 0.95s;
 }
 .logement:hover {
     box-shadow: 0 0 8px darkblue;
@@ -553,6 +553,8 @@ A TESTER
         display: flex;
         width: 100%;
         height: auto;
+        max-height: none;
+        max-width: none;
         border-radius: 0;
         flex-direction: column;
         padding: 0;
@@ -592,19 +594,51 @@ A TESTER
         margin-top: 20px;
         font-weight: 600;
     }
-    /*
-    .filter-button:nth-child(3) {
-        margin-left: 0px;
+
+    .marseille-activites {
+        padding: 35px;
     }
-    */
+
+    .titre-activite {
+        font-weight: 600;
+        margin-bottom: 5%;
+        display: block;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 4px;
+    }
+
+    .activites {
+        flex-direction: column;
+    }
+
+    .activites-xl, .activites-l-s, .activites-m-m {
+        width: 100%;
+    }
+
+    .card-m:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .card-s {
+        margin-top: 0;
+    }
+
+    .card-xl, .card-l, .card-m, .card-s {
+        margin-bottom: 25px;
+    }
+
+    .card-xl img, .card-l img, .card-m img, .card-s img {
+        height: auto;
+        max-height: 100px;
+    }
+
+    .name-card-xl, .name-card-l, .name-card-m, .name-card-s {
+        padding: 3%;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
-    /*
-    .filter-button:first-child, .filter-button:nth-child(4){
-        margin-left: 0px;
-    }
-    */
 
     main {
         width: 90%;
@@ -631,5 +665,34 @@ A TESTER
 
     .logement {
         width: 46%;
+    }
+
+    .activites {
+        flex-direction: column;
+    }
+
+    .activites-xl, .activites-l-s, .activites-m-m {
+        width: 100%;
+    }
+
+    .card-m:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .card-s {
+        margin-top: 0;
+    }
+
+    .card-xl, .card-l, .card-m, .card-s {
+        margin-bottom: 3%;
+    }
+
+    .card-xl img, .card-l img, .card-m img, .card-s img {
+        height: auto;
+        max-height: 100px;
+    }
+
+    .name-card-xl, .name-card-l, .name-card-m, .name-card-s {
+        padding: 3%;
     }
 }
