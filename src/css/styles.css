@@ -223,6 +223,7 @@ A TESTER
     box-shadow: 0 0 8px darkgray;
     transition: box-shadow 0.95s;
 }
+
 .logement:hover {
     box-shadow: 0 0 8px darkblue;
     background-image:
@@ -244,7 +245,7 @@ A TESTER
 }
 
 .logement-prix {
-    font-size: 12px;
+    font-size: 11px;
     padding: 5px 10px 5px 10px;
 }
 
@@ -332,6 +333,7 @@ A TESTER
 .activites {
     display: flex;
     justify-content: space-between;
+    max-height: 350px;
 }
 
 .activites h3 {
@@ -346,96 +348,129 @@ A TESTER
 
 .activites-xl {
     width: 23%;
+    height: 317px;
 }
 
 .card-xl {
-    height: 100%;
-    border-radius: 10px;
+    height: 317px;
+    min-height: 314px;
+    border-radius: 15px;
     background-color: white;
 }
 
 .card-xl img {
-    height: 94%;
+    height: 285px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
 
 .name-card-xl {
-    padding: 5%;
+    padding: 8px;
 }
 .activites-l-s {
     width: 23%;
+    height: 317px;
 }
 
 .card-l {
-    height: 58%;
-    border-radius: 10px;
+    height: 176px;
+    border-radius: 15px;
     background-color: white;
 }
 
 .card-l img {
-    height: 89%;
+    height: 146px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
 
 .name-card-l {
-    padding: 5%;
+    padding: 8px;
 }
 
 .card-s {
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: white;
-    height: 38%;
-    margin-top: 10%;
+    height: 122px;
+    margin-top: 19px;
 }
 
 .card-s img {
-    height: 84%;
+    height: 90px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
 
 .name-card-s {
-    padding: 5%;
+    padding: 8px;
 }
 
 .activites-m-m {
     width: 23%;
+    height: 317px;
 }
 .card-m {
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: white;
-    height: 48%;
+    height: 149px;
 }
 
 .card-m:nth-child(2) {
-    margin-top: 10%;
+    margin-top: 19px;
 }
 
 .card-m img {
-    height: 87%;
+    height: 117px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
 
 .name-card-m {
-    padding: 5%;
+    padding: 8px;
 }
 
 .card-xl, .card-l, .card-m, .card-s {
     box-shadow: 0 0 8px darkgray;
 }
-
+/*
+.card-xl img, .card-l img, .card-m img, .card-s img {
+    max-height: 90%;
+}
+*/
 
 .card-xl:hover, .card-l:hover, .card-m:hover, .card-s:hover {
     box-shadow: 0 0 8px darkblue;
     background-image:
     linear-gradient(to bottom, #0065FC, #DEEBFF);
+}
+
+footer {
+    background-color: #F2F2F2;
+}
+
+.footer {
+    width: 90%;
+    display: flex;
+    margin: 40px auto 0 auto;
+    padding: 20px 0 30px 0;
+}
+footer h3 {
+    font-weight: 600;
+}
+
+footer a {
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.a-propos, .nos-hebergements, .assistance {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
 }
 
 @media screen and (max-width: 768px) {
@@ -610,11 +645,14 @@ A TESTER
 
     .activites {
         flex-direction: column;
+        max-height: none;
     }
 
     .activites-xl, .activites-l-s, .activites-m-m {
         width: 100%;
+        height: auto;
     }
+
 
     .card-m:nth-child(2) {
         margin-top: 0;
@@ -626,6 +664,8 @@ A TESTER
 
     .card-xl, .card-l, .card-m, .card-s {
         margin-bottom: 25px;
+        height: auto;
+        min-height: auto;
     }
 
     .card-xl img, .card-l img, .card-m img, .card-s img {
@@ -634,7 +674,7 @@ A TESTER
     }
 
     .name-card-xl, .name-card-l, .name-card-m, .name-card-s {
-        padding: 3%;
+        padding: 2%;
     }
 }
 
@@ -669,10 +709,13 @@ A TESTER
 
     .activites {
         flex-direction: column;
+        max-height: none;
     }
 
     .activites-xl, .activites-l-s, .activites-m-m {
         width: 100%;
+        height: auto;
+        
     }
 
     .card-m:nth-child(2) {
@@ -685,6 +728,8 @@ A TESTER
 
     .card-xl, .card-l, .card-m, .card-s {
         margin-bottom: 3%;
+        height: auto;
+        min-height: auto;
     }
 
     .card-xl img, .card-l img, .card-m img, .card-s img {
@@ -693,6 +738,6 @@ A TESTER
     }
 
     .name-card-xl, .name-card-l, .name-card-m, .name-card-s {
-        padding: 3%;
+        padding: 2%;
     }
 }
