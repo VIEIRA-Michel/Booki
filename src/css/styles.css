@@ -470,7 +470,7 @@ footer a {
 .a-propos, .nos-hebergements, .assistance {
     display: flex;
     flex-direction: column;
-    margin-right: 20%;
+    width: 340px;
 }
 
 @media screen and (max-width: 768px) {
@@ -675,6 +675,15 @@ footer a {
 
     .name-card-xl, .name-card-l, .name-card-m, .name-card-s {
         padding: 2%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .a-propos, .nos-hebergements, .assistance {
+        margin-top: 50px;
+        width: 100%;
     }
 }
 
