@@ -137,6 +137,7 @@ h1 {
     border: 2px solid #e2e2e2;
     border-radius: 25px;
     transition: background-color 0.75s, color 0.75s;
+    cursor: pointer;
     
 }
 .bouton-filtre:hover {
@@ -170,7 +171,7 @@ h1 {
 .fa-info {
     color: #0065FC;
     border: 1px solid #e2e2e2;
-    padding: 4px 8px 4px 8px;
+    padding: 8px 12px 8px 12px;
     border-radius: 100%;
     margin-right: 10px;
 }
@@ -218,7 +219,6 @@ A TESTER
     margin: 1%;
     padding: 3px;
     width: 29%;
-    height: 0%;
     border-radius: 15px;
     box-shadow: 0 0 8px darkgray;
     transition: box-shadow 0.95s;
@@ -232,7 +232,7 @@ A TESTER
 
 .logement img {
     width: 100%;
-    max-height: 100px;
+    height: 100px;
     object-fit: cover;
     display: block;
     border-radius: 13px 13px 0 0;
@@ -240,7 +240,7 @@ A TESTER
 
 .logement-titre {
     font-weight: 600;
-    font-size: 13px;
+    font-size: 12px;
     padding: 5px 10px 5px 10px;
 }
 
