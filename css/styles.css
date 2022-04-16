@@ -467,6 +467,7 @@ h1 {
 .carte-m,
 .carte-s {
     box-shadow: 0 0 8px darkgray;
+    transition: 0.95s;
 }
 
 .carte-xl:hover,
