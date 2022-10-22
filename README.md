@@ -1,4 +1,4 @@
-<a href="https://github.com/VIEIRA-Michel/projet-2-oc">
+<a href="https://vieira-michel.github.io/projet-2-oc/">
   <img src="https://i.gyazo.com/1ca8bcae82fe0a3c2c626770f2a925ce.png" alt="Booki">
 </a>
   
@@ -14,6 +14,6 @@
 * Implémenter une interface responsive
 
 ## Résultat
-<a href="https://github.com/VIEIRA-Michel/projet-2-oc">
+<a href="https://vieira-michel.github.io/projet-2-oc/">
   <img src="https://i.gyazo.com/15da61e7e2ed13213066ea2fbb831f93.png">
 </a>
